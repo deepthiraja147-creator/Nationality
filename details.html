@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="detials.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container headerr">
+        <h2>Where in the world?</h2>
+
+        <button class="dark-btn">
+            <i class="bi bi-moon"></i>
+            Dark Mode
+        </button>
+    </div>
+</header>
+
+<button class="btn btn-light shadow back" id="backBtn">
+    <i class="bi bi-arrow-left"></i>
+    Back
+</button>
+
+
+<div class="container flag" style="margin-top: 60px;">
+    <div class="row justify-content-center flagDetials">
+
+        <div class="col-lg-5">
+            <img id="flag" class="img-fluid">
+        </div>
+
+        <div class="col-lg-5">
+
+            <h2 id="name"></h2>
+
+            <div class="row mt-4">
+
+                <div class="col-md-6">
+
+                    <p><strong>Native Name:</strong> <span id="nativeName"></span></p>
+
+                    <p><strong>Population:</strong> <span id="population"></span></p>
+
+                    <p><strong>Region:</strong> <span id="region"></span></p>
+
+                    <p><strong>Sub Region:</strong> <span id="subRegion"></span></p>
+
+                    <p><strong>Capital:</strong> <span id="capital"></span></p>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <p><strong>Top Level Domain:</strong> <span id="domain"></span></p>
+
+                    <p><strong>Currencies:</strong> <span id="currency"></span></p>
+
+                    <p><strong>Languages:</strong> <span id="language"></span></p>
+
+                </div>
+
+            </div>
+            <div class="mt-5">
+                <strong>Border Countries:</strong>
+                <div id="borders" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="details.js"></script>
+</body>
+</html>

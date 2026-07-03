@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #fafafa;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+
+.headerr {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111517;
+}
+
+.dark-btn {
+    border: none;
+    background: none;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    color: #111517;
+}
+
+.dark-btn i {
+    font-size: 18px;
+}
+
+.back {
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+flag {
+    margin-top: 60px;
+}
+
+.dark-mode {
+    background-color: #202c37;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #2b3945;
+}
+
+.dark-mode .dark-btn {
+    color: white;
+}
+
+.dark-mode h2,
+.dark-mode p,
+.dark-mode strong,
+.dark-mode span {
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #2b3945;
+    color: white;
+}
+
+.dark-mode .search-box,
+.dark-mode .filter {
+    background-color: #2b3945;
+}
+
+.dark-mode input,
+.dark-mode select {
+    background-color: #2b3945;
+    color: white;
+    border: none;
+}
+
+.dark-mode input::placeholder {
+    color: white;
+}
+
+.dark-mode .btn {
+    background-color: #2b3945;
+    color: white;
+}
+
+.dark-mode .card {
+    background: #2b3945;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .flagDetials {
+        margin: 40px 0;
+    }
+
+    
+    .flag img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .back {
+        margin: 30px 20px;
+    }
+
+    .headerr {
+        width: 90%;
+    }
+
+    #borders {
+        margin-top: 15px;
+    }
+
+    #borders button {
+        margin-bottom: 10px;
+    }
+
+
+}
